@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0a0a0b">
+<title>Vault</title>
+<link rel="stylesheet" href="app.css?v=65eb1ec662">
+</head>
+<body>
+<main id="gate" class="gate">
+  <form id="login" class="gate-card">
+    <input class="vh" type="text" name="username" autocomplete="username" value="vault" tabindex="-1" aria-hidden="true">
+    <input id="pw" type="password" name="password" autocomplete="current-password" aria-label="Password" placeholder="Password" required autofocus>
+    <div class="gate-row">
+      <label class="gate-remember"><input id="remember" type="checkbox" checked> Remember this device</label>
+      <button id="go" type="submit">Open</button>
+    </div>
+    <div class="vh" id="msg" role="alert"></div>
+  </form>
+</main>
+<div id="app" hidden></div>
+<script type="application/json" id="wrap">{"salt":"mGEZTxqjdGT37W/TTZp+yw==","iter":600000,"iv":"GTti6CjrCu5aWnAS","wk":"y5MblsfiXPEXtaOjify3vQlX4JoDMDb4uyfGsn/rC37v+HFxhVBMJANVRGYvb5hS"}</script>
+<script src="app.js?v=65eb1ec662"></script>
+</body>
+</html>
